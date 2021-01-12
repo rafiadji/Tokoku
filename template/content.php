@@ -1,6 +1,6 @@
 <div class="content-wrapper">
     <section class="content-header">
-        <h1>Blank page <small>it all starts here</small></h1>
+        <h1><?php echo $head;?></h1>
     </section>
     <section class="content">
         <?php

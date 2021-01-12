@@ -1,17 +1,7 @@
 <?php
     session_start();
     require_once('koneksi.php');
-
-    function siteurl($url) {
-        return isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? "https" : "http" . "://" . $_SERVER['SERVER_NAME'] . ":". $_SERVER['SERVER_PORT'] . dirname($_SERVER["REQUEST_URI"] . '?') . '/' . $url;
-    }
-    
-    if (isset($_GET['modul'])) {
-        $modul = $_GET['modul'];
-    }
-    else {
-        $modul = "barang/daftarbarang";
-    }
+    require_once('modul.php');
 ?>
 <html>
 <head>

@@ -11,7 +11,7 @@
         </div>
         <ul class="sidebar-menu" data-widget="tree">
             <li class="header">MAIN NAVIGATION</li>
-            <li><a href="<?php echo siteurl("index.php?modul=barang/daftarbarang")?>"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
+            <li><a href="<?php echo siteurl("index.php?modul=daftarbarang")?>"><i class="fa fa-dashboard"></i> <span>Barang</span></a></li>
         </ul>
     </section>
 </aside>
